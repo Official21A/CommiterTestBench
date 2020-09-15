@@ -9,7 +9,8 @@ read -e date_time
 git add .
 git commit --amend --no-edit --date="$date_time"
 
+xdotool key "control+x"
 git pull --allow-unrelated-histories "https://github.com/Official21A/CommiterTestBench.git"
 # apt install xdotool
-xdotool key "control+x"
+
 git push -u origin master
