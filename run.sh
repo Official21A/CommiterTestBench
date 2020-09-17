@@ -10,4 +10,5 @@ git add .
 git commit --amend --no-edit --date="$date_time"
 
 git pull --allow-unrelated-histories "https://github.com/Official21A/CommiterTestBench.git"
+xdotool key "control+x"
 git push -u origin master
